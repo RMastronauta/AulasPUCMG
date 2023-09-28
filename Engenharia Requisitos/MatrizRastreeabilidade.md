@@ -1,3 +1,4 @@
+
 # Matriz de Rastreabilidade de Requisitos
 
 Uma ferramenta para garantir a cobertura e rastreabilidade de requisitos desde sua origem até a implementação e teste.
@@ -8,7 +9,19 @@ Uma ferramenta para garantir a cobertura e rastreabilidade de requisitos desde s
 
 | ID | Descrição | Fonte | ID Requisito Detalhado(s) | Entrega da EAP | Prioridade | Responsável | Comentários |
 |----|-----------|------|---------------------------|----------------|-----------|------------|------------|
-| RAL### | - | - | RD### | (Referência à entrega específica da EAP) | (Alta, Média, Baixa) | - | - |
+| RF1 | Administrador cadastrar usuário no sistema | Entrevista | RF11 | Cadastrar usurário| média | Marcus Vinccius | Senha com mais de 13 caracteres |
+| RF2 | Administrador cadastrar as informações das metas do usuário | Entrevista |RF1 | Cadastrar metas  | média | Marcus Vinccius | |
+| RF3 | Visualizar o seu desempenho na empresa | Entrevista | RF1,RF4,RF5,RF6 ,RF7,RF8,RF9, RF10|  | Alta | Izabela Cecília | Visualizar desempenho |
+| RF4 | Fazer o apontamento de horas de suas tarefas | Entrevista | RF1,RF4,RF5,RF6 ,RF7,RF8,RF9, RF10 | Apontar horas | Alta | Rodrigo Mendes |  |
+| RF5 | Visualizar os apontamentos semanais | Entrevista | RF1,RF4,RF5,RF6 ,RF7,RF8,RF9, RF10 | Visualizar apontamentos | Média | Rodrigo Mendes |  |
+| RF6 | visualizar suas tarefas e de seu setor durante a semana | Entrevista | RF1,RF4,RF5,RF6 ,RF7,RF8,RF9, RF10 | Exibir tarefas | Media| Marcus Vinicius |  |
+| RF7 | visualizar um histórico das tarefas e apontamentos de todos setores | Entrevista | RF1,RF4,RF5,RF6 ,RF7,RF8,RF9, RF10 | exibir histórico | Alta| Marcus Vinicius |  |
+| RF8 | realizar a manutenção dos requisitos mínimos de metas dos colaboradores | Entrevista | RF1,RF4,RF5,RF6 ,RF7,RF8,RF9, RF10 | realizar manutenção | Media| Ramon rodrigues |  |
+| RF9 | enviar comunicados para os colaboradores | Entrevista |  | enviar comunicados | Media| Izabela Cecilia |  |
+| RF10 | Administrador cadastrar avisos | Entrevista |  | cadastrar avisos | Alta| Rodrigo Mendes |  |
+| RF11 | Usuário efetuar login| Entrevista | |  | média | Marcus Vinccius | |
+
+
 
 **Entrega da EAP:** Refere-se à entrega específica do projeto na Estrutura Analítica de Projetos (EAP) com a qual o requisito está alinhado. 
 
