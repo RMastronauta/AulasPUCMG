@@ -35,7 +35,16 @@ Uma ferramenta para garantir a cobertura e rastreabilidade de requisitos desde s
 
 | ID | Descrição | ID Teste(s) | Entrega da EAP | Prioridade | Responsável | Status | Comentários |
 |----|-----------|------------|----------------|-----------|------------|-------|------------|
-| RD### | - | T### | (Referência à entrega específica da EAP) | (Alta, Média, Baixa) | - | - | - |
+| RD003 | Usuário deve ver nome, e-mail e data de cadastro | T003 | Perfil | Média | Marco Tulio | Em Andamento | - |
+| RN004 | software deve aceitar credenciais válidas | T004 | Login | Alta | Rodrigo Mendes | Finalizado | - |
+| RN005 | software deve rejeitar credenciais inválidas | T005 | Login | Alta | Ramon Mendes | Finalizado | - |
+| RN006 | software deve verificar se o ADM que está cadastrando usuário | T006 | Cadasto usuário | Alta | Izabela Cecilia | Finalizado | - |
+| RN007 | software deve verificar o o ADM que está cadastrando as métricas| T007 | métricas | Alta | Ramon Mendes | Finalizado | - |
+| RN008 | Todos Usuarios deve receber comunicado | T008 | comunicado | Alta | Ramon Mendes | Finalizado | - |
+| RN008 | Usuário deve ver seu desempenho na empresa | T009 | Métricas | Alta | Marco Tulio | Em Andamento | - |
+| RN008 | Usuário deve ver seus apontamentos | T0010 | Apontamentos | média | Marco Tulio | Em Andamento | - |
+| RN008 | Softeare deve apresentar as tarefas do seu devido departamento | T0011 | Tarefas | Media | Marco Tulio | Finalizado | - |
+| RN008 | ADM deve conseguir alterar as métricas dos usuários | T0011 | Tarefas | Media | Marco Tulio | Finalizado | - |
 
 ## Exemplo de Uso
 
@@ -43,14 +52,24 @@ Uma ferramenta para garantir a cobertura e rastreabilidade de requisitos desde s
 
 | ID | Descrição | Fonte | ID Requisito Detalhado(s) | Entrega da EAP | Prioridade | Responsável | Comentários |
 |----|-----------|------|---------------------------|----------------|-----------|------------|------------|
-| RAL001 | Usuário deve poder fazer login no sistema | Documento | RD001, RD002 | Login | Alta | João Silva | Login com e sem 2FA |
-| RAL002 | Usuário deve poder visualizar seu perfil | Entrevista | RD003 | Perfil | Média | Maria Souza | Inclui foto e e-mail |
+| RNF1 | Seguir design disponibilizado pela empresa | Entrevista |  | template | Alta | Marco Tulio | Validação do Usuário |
+| RNF2 | O software deve realizar as métricas de desempenho de usuário | Entrevista |  | Calculo de métricas | Alta | Ramon Mendes |  |
+| RNF3 | O software deve fazer o cálculo de pontos do colaborador | Entrevista |  | Calculo de métricas | Alta | Rodrigo Mendes |  |
+| RNF4 | linguagem mysql | Entrevista |  | Calculo de métricas | Alta | Marco Tulio |  |
+| RNF5 | Java para back end | Entrevista |  | Calculo de métricas | Alta | Izabela Cecilia |  |
+| RNF6 | framework next.js | Entrevista |  | Calculo de métricas | Alta | Marco Tulio |  |
+| RNF7 | Tempo de resposta de 5 segundos | Entrevista |  | Calculo de métricas | Alta | Rodrigo Mendes |  |
+| RNF8 | o software deve ser capaz de funcionar corretamente sem falhas | Entrevista |  | Calculo de métricas | Alta | Izabela Cecilia  Rodrigo Mendes|  |
+| RNF9 | O software dev | Entrevista |  | Calculo de métricas | Alta | Izabela Cecilia  Rodrigo Mendes|  |
+| RNF10 | o software deve ser fácil de manter e modificar | Entrevista |  | Calculo de métricas | Alta | Marco Tulio |  |
 
 ### 2. Requisitos Detalhados → Testes
 
 | ID | Descrição | ID Teste(s) | Entrega da EAP | Prioridade | Responsável | Status | Comentários |
 |----|-----------|------------|----------------|-----------|------------|-------|------------|
-| RD001 | Sistema deve aceitar credenciais válidas | T001 | Login | Alta | Pedro Costa | Completo | - |
-| RD002 | Sistema deve rejeitar credenciais inválidas | T002 | Login | Alta | Ana Lima | Em Progresso | Falha ocasional |
-| RD003 | Usuário deve ver nome, e-mail e data de cadastro | T003 | Perfil | Média | Roberto Alves | Não Iniciado | - |
+| RN001 | Testar o tempo de resposta de todas as APIs para garantio o menor tempo de resposta | T001 | Eficiencia | Alta | Rodrigo Mendes Ramon Mendes | Em Progresso | - |
+| RN002 | Testar métricas do usuário calculada pelo software | T002 | métricas | Alta | Izabela Cecilia | Em Progresso | - |
+| RN003 | Teste de pontos calculados pelo software | T003 | Pontos | Média | Izabela Cecilia Ramon Mendes | Finalizado | - |
+| RN004 | Teste de criptografia e segurança do software | T004 | Pontos | Média | Izabela Cecilia Rodrigo Mendes | Em Andamento | - |
+
 
